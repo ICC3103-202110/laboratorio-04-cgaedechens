@@ -1,0 +1,50 @@
+/*
+function sum(a,b){
+    return a+b;
+}
+
+// let es para definir una variable, se usa como una keyword
+//const para definir una constante, las constantes son imnutables, por lo tanto no se podra cambiar su valor
+
+let sumando1 = 1;
+let sumando2 = 2;
+console.log(sum(1,2));
+
+//Arrow function 
+const sum2 =(a,b) => {  
+    return a+b;
+}
+
+//camel case = EstoEsUnaVariableCamelCase
+//snake case = eta_es_una_variable_snake_case
+*/
+
+//COMOM USAR PROMPT
+/*var prompt = require('prompt-sync')({sigint: true});
+
+Prompt-sync: 
+Se importa en el archivo con -> const prompt = require('prompt-sync')({sigint: true});
+Lueog si quieres pedir input:
+const name = prompt('Tu nombre? ')
+*/
+
+//modo arrow function
+const sum = (a,b) => a+b;
+console.log(sum(1,2));
+
+const greet = (name) =>'hola, ${name}'; //no me funciona el sigo $
+console.log(greet("gonzalo"));
+
+//numeros pares
+const pair = x => {
+    if(x % 2 === 0)
+        return true;
+    else
+        return false;
+}
+// o
+const isEven  = x => x % 2 === 0;
+
+//prints
+console.log(isEven(2));
+console.log(pair(2));
