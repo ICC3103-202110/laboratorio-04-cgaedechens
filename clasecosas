@@ -15,7 +15,7 @@ const sum2 =(a,b) => {
     return a+b;
 }
 
-//camel case = EstoEsUnaVariableCamelCase
+//camel case = EstoEsUnaVariableCamelCase------------Usar camelcase
 //snake case = eta_es_una_variable_snake_case
 */
 
